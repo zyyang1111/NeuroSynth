@@ -1,0 +1,2 @@
+The codes in this file perform the architecture level simulation for neural ASICs. We have a simulator for our proposed NeuroSynth and also a simulator for DianNao structure. 
+The simulators forcuses on simulating the latency (including compute and memory) and the usage of cache and compute units with different tiling and reuse parameters of the neural networks. 

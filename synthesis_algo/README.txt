@@ -1,0 +1,4 @@
+The codes in this folder can perform synthesis for neural ASICs. 
+- generate_mullib.m contains the information of fixed-point multipliers. You can modify this code with your multiplier information. 
+- optimize_multiplier_fast.m iteratively finds the Pareto Optimal solutions to the multiplier stage given the neural network information (the number and value of weights). This routine will call "generate_mullib" to input the multiplier information. This routine will save the raw data (MATLAB workspace sheet) at the required area constraints.
+- extract_result_from_layer_opt.m and assign_oneResult_to_Others.m are used successively to extract the design of multipliers
